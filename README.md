@@ -1,6 +1,8 @@
-# react
-Start React Project
+:atom: react :electron: 
 ---
+
+# Start React Project
+
 
 [DeepSpaceHouse](https://youtu.be/P15NtXKEM-w?t=64)
 
@@ -9,10 +11,10 @@ Start React Project
 
 ----------
 
-
-# react native
-Start React Native Project
+:calling: react native :electron:
 ---
+
+# Start React Native Project
 
 [rn-casts](https://github.com/tom2kota/rn-casts)
 
@@ -155,21 +157,21 @@ If the System Image for the most recent SDK is not installed, you will need to c
 
 After the image has been downloaded, click “Next”
 
-Preview the settings and then click “Finish”
+Preview the settings and then click ***“Finish”***
 
 You should see the newly created device in the “Your Virtual Device” screen.
 
-Click the Play ▶️button all the way to the right in the "Actions" column.
+Click the **Play ▶️** button all the way to the right in the "Actions" column.
 
 This will open an Android simulator on your machine. If everything is working well, it should load a generic screen with a few apps.
 
 Go to your terminal and in your React Native project directory, run npm start
 
-When the Metro Bundler opens up in your browser, click on the option to “Run on Android simulator”. If it does not open in your browser, you may need to go to localhost:19002 in your browser.
+When the Metro Bundler opens up in your browser, click on the option to “Run on Android simulator”. If it does not open in your browser, you may need to go to ```localhost:19002``` in your browser.
 
 If you navigate back to your Android simulator you might see a “Permit Drawing Over Other Apps” message. Click the OK button and it should take you to the system settings screen to enable this. You will likely have to back to the Metro Bundler and select “Run on Android simulator” again.
 
-This will launch the Expo application in the simulated device and run your bundled code. Eventually, it should load the “Hi There!” screen.
+This will launch the Expo application in the simulated device and run your bundled code. Eventually, it should load the ***“Hi There!”*** screen.
 
 
 ----------
@@ -180,9 +182,7 @@ This will launch the Expo application in the simulated device and run your bundl
 
 1. Try using a different terminal. There are few choices, CMD prompt, PowerShell, GitBash and CMDer.
 
-2. Make sure you have installed Git as one of Expo's dependencies will need it:
-
-[Git](https://git-scm.com/download/win)
+2. Make sure you have installed Git as one of Expo's dependencies will need it: [Git](https://git-scm.com/download/win)
 
 3. Make sure that your project files are on the C drive rather than on some external or remote drive. This may be causing permissions errors or inconsistencies with the install.
 
@@ -229,8 +229,6 @@ npm install expo-cli --global
 
 Then attempt to run an npm start again - you should not get prompted to install the tools this time and the ***Metro Bundler should start up***.
 
-IMPORTANT - If you are using macOS Catalina, it is highly likely that your default shell is now zsh. If so, you will need to instead create a ``` ~/.zprofile ``` instead of a ``` ~/.profile ``` when following these instructions:
-
-[docs](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
+IMPORTANT - If you are using macOS Catalina, it is highly likely that your default shell is now zsh. If so, you will need to instead create a ``` ~/.zprofile ``` instead of a ``` ~/.profile ``` when following these instructions: [docs](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
 
 
