@@ -7,7 +7,7 @@ Start React Project
 [GitHub Pages](https://tom2kota.github.io/react/)
 
 
------------
+----------
 
 
 # react native
@@ -24,8 +24,8 @@ Start React Native Project
 
 ----------
 
-##macOS
-##XCode iOS Simulator
+# macOS
+# XCode iOS Simulator
 
 
 Download the full version of Xcode from the App Store. This is a huge file at around 7GB, so it can take a LONG time to download and install. It might seem like it it is stuck and not installing, but it is probably not.
@@ -51,8 +51,10 @@ If you navigate back to your iPhone simulator you should see an “Open In Expo�
 This will launch the Expo application in the simulated device and run your bundled code. Eventually, it should load the “Hi There!” screen.
 
 
+----------
 
-###Android Studio Simulator
+
+## Android Studio Simulator
 
 [Install Android Studio](https://developer.android.com/studio)
 
@@ -101,14 +103,18 @@ If you navigate back to your Android simulator you might see a “Permit Drawing
 This will launch the Expo application in the simulated device and run your bundled code. Eventually, it should load the “Hi There!” screen.
 
 
-##Windows
-##ios Simulator
+----------
+
+# Windows
+# ios Simulator
 
 Unfortunately, you cannot run iOS simulators on Windows. You can, however, use a physical iOS device running Expo with your Windows machine.
 
 
+----------
 
-###Android Studio Simulator
+
+## Android Studio Simulator
 
 Make sure Virtualization is enabled in your BIOS. Also, note, your processor must support [HAXM](https://github.com/intel/haxm). If it does not (which is common with many AMD or non-Intel machines) you will likely not be able to run the simulators. HAXM will also conflict with the Hyper-V Manager if it is enabled.
 
